@@ -1,0 +1,10 @@
+#a = 3;
+#b = 4;
+#c = 5;
+
+#temp = #a;
+
+IF #a < #b THEN #temp = #b ENDIF
+IF #temp < #c THEN #temp = #c ENDIF
+
+OUTPUT(#temp)

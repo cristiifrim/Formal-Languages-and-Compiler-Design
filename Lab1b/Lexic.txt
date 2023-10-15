@@ -1,0 +1,53 @@
+Alphabet:
+
+a. Upper (A-Z) and lower case letters (a-z) of the English alphabet
+
+       b. Underline character '_';
+
+       c. Decimal digits (0-9);
+       d. Hashtag character '#';
+       e. Dollar character '$';
+
+    Lexic:
+
+      a.Special symbols, representing:
+
+- operators + - * / equals < <= = >= % & | ^  ++ -- += *= /= -= #
+
+- separators [ ] { } < >  : ; space ( )
+
+- reserved words:
+
+    list string const else if number to program input 
+
+then while write output for endif endloop endfor # $
+
+      b.identifiers
+
+  -a sequence of letters and  digits, such that the first character is a letter; the rule is:
+
+    identifier ::= letter | letter{letter}{digit}
+
+    letter ::= "A" | "B" | . ..| "Z"
+
+    digit ::= "0" | "1" |...| "9"
+
+      c.constants
+
+1.number - rule:
+
+      noconst:="+"no|"-"no|no
+
+      no:=digit{no}
+
+2.boolean
+
+    character:=true|false
+
+3.string
+
+      constchar:="string"
+
+      string:=char{string}
+
+      char:=letter|digit

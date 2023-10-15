@@ -1,0 +1,12 @@
+#a = 27;
+#b = 9;
+
+#temp = #a;
+
+WHILE #b > 0 EXECUTE
+	#temp = #a % #b
+	#a = #b
+	#b = #temp
+ENDLOOP
+
+OUTPUT(#a)

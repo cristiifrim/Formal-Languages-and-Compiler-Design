@@ -1,0 +1,5 @@
++ - * / equals < <= = >= % & | ^  ++ -- += *= /= -= #
+
+[ ] { } < >  : ; space ( )
+
+list string const else if number to program input then while write output for endif endloop endfor # $
