@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAConsole", "FAConsole\FAConsole.csproj", "{6A70646D-2B95-456A-95B6-978D948A648D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A70646D-2B95-456A-95B6-978D948A648D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A70646D-2B95-456A-95B6-978D948A648D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A70646D-2B95-456A-95B6-978D948A648D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A70646D-2B95-456A-95B6-978D948A648D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE32BA04-13A4-4D6A-8E17-E7FEC5886F46}
+	EndGlobalSection
+EndGlobal
